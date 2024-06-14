@@ -2,7 +2,6 @@ use std::net::{IpAddr, Ipv4Addr};
 use anyhow::Result;
 use serde::Serialize;
 use tauri::regex::Regex;
-use tauri::utils::debug_eprintln;
 
 use super::command::{CommandString, ConcreteCommand, VirtualCommand};
 
